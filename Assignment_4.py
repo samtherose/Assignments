@@ -32,6 +32,7 @@ small_count = 0
 medium_count = 0
 large_count = 0
 
+# add the expenses to the appropriate category
 for expense in expenses:
     if expense < 25:
         small_count += 1
